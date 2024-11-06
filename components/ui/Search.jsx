@@ -16,16 +16,16 @@ const Search = ({ setIsSearchModal }) => {
           setIsSearchModal(false);
         }}
       >
-        <div className="w-full h-full ">
-          <div className="relative z-50 w-[600px] h-[600px] bg-white border-2 border-gray-500 p-5">
-            <div className="w-full flex justify-end">
+        <div className="w-full h-full grid place-content-center relative">
+          <div className="relative z-50 md:w-[600px] w-[370px]  bg-white border-2 p-10 rounded-3xl">
+            {/* <div className="w-full flex justify-end">
               <button
                 className="hover:bg-primary  transition-all"
                 onClick={() => setIsSearchModal(false)}
               >
                 <IoCloseOutline size={25} />
               </button>
-            </div>
+            </div> */}
 
             <Title addClass="text-[40px] text-center">Search</Title>
             <input
