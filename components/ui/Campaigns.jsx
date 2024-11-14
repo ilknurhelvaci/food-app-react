@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Title from "./ui/Title";
+
 import { MdShoppingCart } from "react-icons/md";
+import Title from "./Title";
 const CampaignItem = () => {
   return (
     <div className="bg-secondary flex-1 rounded-md py-5 px-[15px] flex items-center gap-x-4">
