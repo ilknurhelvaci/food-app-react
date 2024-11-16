@@ -11,10 +11,6 @@ export default function Home() {
       </Head>
       <Header />
       <HomePage />
-
-      <div className="p-20 container mx-auto">
-        <Input />
-      </div>
     </div>
   );
 }
