@@ -20,3 +20,11 @@ body {
 .slick-dots div {
   @apply !m-0 !mt-8;
 }
+
+/* Slide arasında boşluk oluşturmak için */
+.slick-list {
+  margin: 0 -5px;
+}
+.slick-slide > div {
+  padding: 0 5px;
+}

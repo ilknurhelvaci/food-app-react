@@ -1,3 +1,4 @@
+import Customers from "@/components/customers/Customers";
 import MenuWrapper from "@/components/product/MenuWrapper";
 import About from "@/components/ui/About";
 import Campaigns from "@/components/ui/Campaigns";
@@ -7,13 +8,14 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div>
+    <React.Fragment>
       <Carousel />
       <Campaigns />
       <MenuWrapper />
       <About />
       <Reservation />
-    </div>
+      <Customers />
+    </React.Fragment>
   );
 };
 
